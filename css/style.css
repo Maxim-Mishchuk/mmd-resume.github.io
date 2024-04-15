@@ -40,11 +40,11 @@ main h3 {
 
 #header p {
     text-align: justify;
-    max-width: 700px;
+    max-width: 80%;
 }
 
 #projects ol {
-    max-width: 350px;
+    max-width: 45%;
 }
 
 #projects li {
