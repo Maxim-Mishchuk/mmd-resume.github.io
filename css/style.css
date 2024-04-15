@@ -5,7 +5,8 @@
     min-height: calc(100vh - 40px);
     min-width: 1200px;
     max-width: 1250px;
-    border-right: 3px solid #eebebe;
+    border-right: 5px solid #eebebe;
+    box-shadow: #999 0 0 20px;
 }
 
 aside {
@@ -14,7 +15,7 @@ aside {
     background-color: #eebebe;
 }
 
-section {
+section, header {
     padding: 1em 2em;
 }
 
@@ -29,7 +30,7 @@ main h3 {
 }
 
 #header h1 {
-    margin-bottom: 0.25em;
+    margin-bottom: 0 !important;
 }
 
 #header h1 span {
@@ -41,6 +42,11 @@ main h3 {
 #header p {
     text-align: justify;
     max-width: 80%;
+}
+
+#extra-info {
+    margin-bottom: 0 !important;
+    color: white;
 }
 
 #projects ol {
